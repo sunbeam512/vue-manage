@@ -1,0 +1,21 @@
+[2023-04-29T14:30:36.511] [ERROR] error - TypeError: util.fail is not a function
+    at D:\C\manager-serve\routes\users.js:36:21
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\C\manager-serve\app.js:35:1
+    at async serve (D:\C\manager-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\C\manager-serve\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\C\manager-serve\node_modules\koa-bodyparser\index.js:91:5)
+[2023-04-29T14:48:37.639] [ERROR] error - ReferenceError: res is not defined
+    at D:\C\manager-serve\routes\users.js:24:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\C\manager-serve\app.js:35:1
+    at async serve (D:\C\manager-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\C\manager-serve\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\C\manager-serve\node_modules\koa-bodyparser\index.js:91:5)
+[2023-04-29T14:50:25.604] [ERROR] error - ReferenceError: res is not defined
+    at D:\C\manager-serve\routes\users.js:35:5
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\C\manager-serve\app.js:35:1
+    at async serve (D:\C\manager-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\C\manager-serve\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\C\manager-serve\node_modules\koa-bodyparser\index.js:91:5)

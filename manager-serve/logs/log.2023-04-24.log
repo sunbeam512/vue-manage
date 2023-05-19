@@ -1,0 +1,18 @@
+[2023-04-24T19:38:00.950] [ERROR] error - TypeError: Cannot convert object to primitive value
+    at D:\C\manager-serve\app.js:35:56
+    at async serve (D:\C\manager-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\C\manager-serve\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\C\manager-serve\node_modules\koa-bodyparser\index.js:91:5)
+[2023-04-24T19:38:51.812] [ERROR] error - TypeError: Cannot convert object to primitive value
+    at D:\C\manager-serve\app.js:35:57
+    at async serve (D:\C\manager-serve\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\C\manager-serve\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\C\manager-serve\node_modules\koa-bodyparser\index.js:91:5)
+[2023-04-24T19:39:51.171] [ERROR] error - TypeError: Cannot convert object to primitive value
+    at D:\C\manager-serve\app.js:33:58
+    at dispatch (D:\C\manager-serve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (D:\C\manager-serve\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\C\manager-serve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\C\manager-serve\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\C\manager-serve\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\C\manager-serve\node_modules\koa-bodyparser\index.js:91:5)
